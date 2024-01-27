@@ -11,8 +11,9 @@ public class Conditions {
 		}
 		
 		//If Else statement : Use for Two conditions
-		String name = "Dhairy";
-		if (name == "Dhairya") 
+		String name = "Dhairya";
+		int age = 18;
+		if (name == "Dhairya" && age == 18) 
 		{
 			System.out.println("Your name is correct.");
 		}else
