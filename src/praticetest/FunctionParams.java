@@ -4,7 +4,7 @@ public class FunctionParams {
 
 	public static void main(String[] args) {
 		// Define the parameter value and call the function
-		int userage1 = 20;
+		int userage1 = 1;
 		getAgedays(userage1);
 		
 		int amount = 10000;
@@ -16,12 +16,12 @@ public class FunctionParams {
 	//Create static function with add single parameter 
 	public static void getAgedays(int age) 
 	{
-		System.out.println(age*365);
+		System.out.println("Your age is: "+(age*365));
 	}
 	
-	//Create static function with add multiple parameters 
-		public static void getInterestrate(int amount,int time, int rate) 
-		{
-			System.out.println((amount*time*rate)/100);
-		}
+	//Create static function with add multiple parameters 	
+	public static void getInterestrate(int amount,int time, int rate) 
+	{
+			System.out.println("Interest amount of your principal : "+((amount*time*rate)/100));
+	}
 }

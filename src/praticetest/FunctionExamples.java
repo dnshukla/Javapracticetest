@@ -2,7 +2,7 @@ package praticetest;
 
 public class FunctionExamples {
 	/*Functions : Set of code that used to perform certain actions
-	*Three types of Access Modifiers:Public(Use within the project), Private (User within the case), 
+	*Three types of Access Modifiers:Public(Use within the project), Private (User within the class), 
 	 * Protected (Use when inheritable the class. Consider limited access )
 	 *Function Syntax : Public data type funtion_name(){add required code}
 	 *Call function syntax: class_name f1 = new class_name();
