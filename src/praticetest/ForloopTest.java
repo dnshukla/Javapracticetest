@@ -20,6 +20,6 @@ public class ForloopTest {
 					{
 						System.out.println("Display the 0 moduler data:"+c);	
 					}
-					}
+		}
     }
 }
