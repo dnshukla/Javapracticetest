@@ -25,7 +25,7 @@ class Companydata implements companyuserdetail {
 	}
 	
 }
-//Add Internal with two methods
+//Add Interface with two methods
 interface companyuserdetail{
 	void getmaleemployeedata();
 	void getwomanemployeedata();
