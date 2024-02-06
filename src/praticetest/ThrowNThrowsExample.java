@@ -2,12 +2,12 @@ package praticetest;
 
 public class ThrowNThrowsExample {
 	public static void main(String[] args) {
-		// When forcefully move your code in catch statement once fulfilled your condition
+		// User throw, When forcefully move your code in catch statement once fulfilled your condition
 		try {
 			int a = 10;
 			System.out.println(a/2);
 		if(a==10) {
-			//System.out.println("If condition");
+			System.out.println("If condition");
 			throw new ArithmeticException("Test");
 		}
 		}catch(ArithmeticException e) {
@@ -23,5 +23,5 @@ public class ThrowNThrowsExample {
 	}
 public static void getdata() throws Exception{
 	System.out.println(15/0);
-}
+    }
 }

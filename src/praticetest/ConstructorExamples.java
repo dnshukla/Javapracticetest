@@ -5,9 +5,9 @@ public class ConstructorExamples {
 		Studentname s1 = new Studentname();
 		String tname = "Dhiraj Shah";
 		Teachername t1 = new Teachername(tname);
-		Schoolname sch1 = new Schoolname(tname);
+		String sch = "Dhimant School";
+		Schoolname sch1 = new Schoolname(sch);
 		System.out.println(sch1.chname);
-		
 	}
 }
 //Add class with Constructor with user name and automatically call once run the main function

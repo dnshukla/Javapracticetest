@@ -2,7 +2,7 @@ package praticetest;
 
 public class BreakAndContinue {
 	public static void main(String []args) {
-		//Break statement : Use this statement for the break loon once satisfied the condition
+		//Break statement : Use this statement for the break loop once satisfied the condition
 		int p = 5;
 		for(int q=1;q<=10;q++) {
 			if(p==q) {

@@ -4,8 +4,10 @@ public class HierarchicalInheritanceExample {
 	public static void main(String[] args) {
 		Businessuser bu1 = new Businessuser();
 		bu1.Islogin();
+		bu1.getBusinessusercounts();
 		Operationuser ou1 = new Operationuser();
 		ou1.Islogin();
+		ou1.getOperationusercounts();
 		Adminpanel au1 = new Adminpanel();
 		au1.Islogin();
 	}

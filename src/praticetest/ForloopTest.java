@@ -10,7 +10,7 @@ public class ForloopTest {
 		}
 		//create another for loop example decrement mode
 		int b=5;
-		for(b=5;b>1;b--) {
+		for(b=5;b>=1;b--) {
 			System.out.println(b);
 		}
 		//create another for loop example with If condition

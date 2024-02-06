@@ -8,7 +8,6 @@ public class AggregationExample {
         Employee e1 = new Employee("Dhairya",a1);
         e1.getemployeedetail();
 	}
-
 }
 class Employee{
 	String name;

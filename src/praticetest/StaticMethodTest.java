@@ -10,11 +10,11 @@ public class StaticMethodTest {
 }
 
 class State{
-	// Add normal method/function
+	   // Add normal method/function
 		void getdata() {
 			System.out.println("Display normal method data.");
 			
-			//Call static method/function with in the class
+		//Call static method/function with in the class
 			fixdata();
 		}
 		

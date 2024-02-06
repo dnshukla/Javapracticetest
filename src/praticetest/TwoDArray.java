@@ -7,7 +7,6 @@ public class TwoDArray {
 		String str[][]= new String[2][2];
 		str[0][0]="AB";
 		str[0][1]="BC";
-		
 		str[1][0]="AA";
 		str[1][1]="BB";
 		

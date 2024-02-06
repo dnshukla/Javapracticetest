@@ -12,13 +12,15 @@ public class TryCatchWithException {
 		}
 		System.out.println("Hello for the second code.");
 		
-		// Use try catch with handle exception error and finally key word
+		// Use try catch with handle exception error and finally keyword
 		int marks = 450;
 		try {
-			System.out.println(marks/3);
+			System.out.println(marks/0);
 		}catch(Exception error){
 			System.out.println("You cann't perform this operation.");
-		}finally {
+		}
+		//Use finally keyword when run the code in all try catch condition
+		finally {
 			System.out.println("This message should run in both the cases.");
 			}
 		System.out.println("Hello for the Final code.");

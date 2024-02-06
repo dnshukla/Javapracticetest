@@ -4,7 +4,7 @@ public class InterfaceExample {
 	public static void main(String[] args) {
 		Companydata cd1 = new Companydata();
 		cd1.getmaleemployeedata();
-		cd1.getwomanemployeedata();
+		cd1.getfemaleemployeedata();
 		cd1.getloguserdata();
 	}
 }
@@ -15,7 +15,7 @@ class Companydata implements companyuserdetail {
 	public void getmaleemployeedata() {
 		System.out.println("Total no. of Male Employee : 61");	
 	}
-	public void getwomanemployeedata() {
+	public void getfemaleemployeedata() {
 		System.out.println("Total no. of Male Employee : 43");	
 	}
 	
@@ -28,5 +28,5 @@ class Companydata implements companyuserdetail {
 //Add Interface with two methods
 interface companyuserdetail{
 	void getmaleemployeedata();
-	void getwomanemployeedata();
+	void getfemaleemployeedata();
 }
