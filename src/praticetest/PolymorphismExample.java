@@ -3,11 +3,11 @@ package praticetest;
 public class PolymorphismExample {
 	public static void main(String[] args) {
 		
-		//Compile time polymorphism
+		//Compile time polymorphism & MethodOverloading & Static binding
 		Compiletime ct1 = new Compiletime();
 		ct1.getuserdata("Hello Dhairya");
 		ct1.getuserdata();
-		//Run time polymorphism
+		//Run time polymorphism & MethodOverriding & Dynamic binding
 		Runtimechild rt1 = new Runtimechild();
 		rt1.getparentclassdata("Get the Child class detail");
 		rt1.getparentclassdata();
