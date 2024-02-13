@@ -20,10 +20,10 @@ public class PalindromeNumber {
 			}
 		
 		if (org_num==rev) {
-			System.out.println(org_num+" palindrome Number");
+			System.out.println(org_num+" is palindrome Number");
 		}
 		else {
-			System.out.println(org_num+" Not palindrome Number");
+			System.out.println(org_num+" is not palindrome Number");
 		}
 	}
 
